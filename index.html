@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KAVA — городская кофейня с классикой и авторскими напитками. Популярные напитки, цены, адрес и часы работы.">
+  <title>KAVA — городская кофейня</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/favicon.png" sizes="64x64">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <header>
+    <a href="#top" aria-label="KAVA — к началу страницы">KAVA</a>
+    <button class="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false" aria-label="Открыть навигацию" hidden>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <nav id="main-navigation" aria-label="Основная навигация">
+      <ul>
+        <li><a href="#about">О кофейне</a></li>
+        <li><a href="#menu">Напитки</a></li>
+        <li><a href="#advantages">Преимущества</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+      <h1 id="hero-title">Хороший день начинается с кофе</h1>
+      <p>KAVA — городская кофейня с классикой и авторскими напитками</p>
+      <p class="hero-actions">
+        <a href="#menu">Смотреть меню</a>
+        <a href="#contacts">Как нас найти</a>
+      </p>
+      </div>
+      <img class="hero-photo" src="assets/hero-coffee.webp" alt="Пар над чашкой кофе в тёплом солнечном свете" width="1000" height="1500" fetchpriority="high">
+    </section>
+
+    <section id="about" aria-labelledby="about-title" tabindex="-1">
+      <img class="about-photo" src="assets/interior.webp" alt="Интерьер кофейни с деревянными столами и мягким тёплым освещением" width="1000" height="750" loading="lazy" decoding="async">
+      <div>
+      <h2 id="about-title">О кофейне</h2>
+      <p>В KAVA можно забежать за эспрессо по пути на работу или остаться за чашкой капучино у окна. В меню — классика и напитки с сезонными вкусами.</p>
+      </div>
+    </section>
+
+    <section id="menu" aria-labelledby="menu-title" tabindex="-1">
+      <h2 id="menu-title">Популярные напитки</h2>
+      <article aria-labelledby="cappuccino-title">
+        <img class="drink-photo" src="assets/cappuccino.webp" alt="Капучино с молочной пенкой в тёмной керамической чашке на деревянном столе" width="800" height="600" loading="lazy" decoding="async">
+        <h3 id="cappuccino-title">Капучино</h3>
+        <p>Эспрессо, молоко и плотная пенка</p>
+        <dl>
+          <dt>Объём</dt>
+          <dd>250 мл</dd>
+          <dt>Цена</dt>
+          <dd>260 ₽</dd>
+        </dl>
+      </article>
+      <article aria-labelledby="flat-white-title">
+        <img class="drink-photo" src="assets/flat-white.webp" alt="Флэт уайт с рисунком сердца на тонкой молочной пене" width="800" height="600" loading="lazy" decoding="async">
+        <h3 id="flat-white-title">Флэт уайт</h3>
+        <p>Двойной эспрессо и тонкий слой молочной пены</p>
+        <dl>
+          <dt>Объём</dt>
+          <dd>200 мл</dd>
+          <dt>Цена</dt>
+          <dd>290 ₽</dd>
+        </dl>
+      </article>
+      <article aria-labelledby="raf-title">
+        <img class="drink-photo" src="assets/vanilla-raf.webp" alt="Раф-кофе со светлой пенкой в стеклянном бокале на блюдце" width="800" height="600" loading="lazy" decoding="async">
+        <h3 id="raf-title">Ванильный раф</h3>
+        <p>Эспрессо, сливки и ваниль</p>
+        <dl>
+          <dt>Объём</dt>
+          <dd>300 мл</dd>
+          <dt>Цена</dt>
+          <dd>330 ₽</dd>
+        </dl>
+        <p class="photo-credit">Фото раф-кофе: <a href="https://commons.wikimedia.org/wiki/File:Rafcoffe.jpg">Serpas1010</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. WebP-версия с кадрированием 4:3, CC BY-SA 4.0.</p>
+      </article>
+    </section>
+
+    <section id="advantages" aria-labelledby="advantages-title" tabindex="-1">
+      <h2 id="advantages-title">Почему KAVA</h2>
+      <article>
+        <h3>Зерно от локальной обжарки</h3>
+        <p>Готовим кофе на зерне от местных обжарщиков.</p>
+      </article>
+      <article>
+        <h3>Овсяное молоко на выбор</h3>
+        <p>По вашему желанию приготовим напиток на овсяном молоке.</p>
+      </article>
+      <article>
+        <h3>Кофе с собой</h3>
+        <p>Возьмите любимый напиток с собой на работу или прогулку.</p>
+      </article>
+    </section>
+
+    <section id="contacts" aria-labelledby="contacts-title" tabindex="-1">
+      <h2 id="contacts-title">Контакты</h2>
+      <p>Демонстрационные данные</p>
+      <p>Это демонстрационный сайт вымышленной кофейни KAVA. Адрес и часы работы приведены для примера.</p>
+      <address>ул. Кофейная, 7</address>
+      <h3>Часы работы</h3>
+      <ul>
+        <li>Будни: <time datetime="08:00">08:00</time>–<time datetime="21:00">21:00</time></li>
+        <li>Выходные: <time datetime="09:00">09:00</time>–<time datetime="21:00">21:00</time></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>KAVA · Демонстрационный проект</p>
+  </footer>
+</body>
+</html>
+
